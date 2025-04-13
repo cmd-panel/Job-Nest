@@ -17,3 +17,8 @@ def index(request):
     return render(request,"index.html",context)
     
     #return render(request,"index.html",context)
+def posthandle(request):
+    #return HttpResponse("Hello, world!")
+    context={}
+    return render(request,"posthandle.html",context)
+    
